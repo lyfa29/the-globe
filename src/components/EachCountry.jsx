@@ -47,6 +47,7 @@ const EachCountry = ({ eachCountry }) => {
               </p>
               <p className="mb-1">
                 <b>Population</b>: {eachCountry?.population?.toLocaleString()}
+                {/* localestring turn number to strings */}
               </p>
               <p className="mb-1">
                 <b>Region</b>: {eachCountry?.region}
